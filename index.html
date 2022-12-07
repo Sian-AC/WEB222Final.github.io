@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		
+	</title>
+  <link rel="stylesheet" href="./css/style.css">
+	
+</head>
+<body style="background-color:dodgerblue; margin: auto;">
+
+
+
+
+<!-- Top Section -->
+
+
+<section class="firstsection">
+  <div>
+    <a href="./63brabusfront.jpg" download>
+    <img class="personalimg" alt="" src="./63brabusfront.jpg"></a>
+    <div>
+      <h1>Zhe Sian Chu</h1>
+      <p>Click the picture to download my resume</p>
+    </div>
+  </div>
+</section>
+
+<!-- Top Section End -->
+
+
+<!-- Info Part -->
+<main style="background-color:white; width: 100%; margin: auto;" >
+<section class="secondsection">
+<div id="exhibitorleft">
+      <h1 class="aboutme">About Me & Academic Honesty</h1>
+      <p class="p2">I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+        No part of this assessment has been copied manually or electronically from any other source
+        (including web sites) except for the information supplied by the WEB222 instructors and / or
+        made available in this assessment for my use. I also declare that no part of this assignment has
+        been distributed to other students.</p></div>
+<div id="exhibitorright">
+      <h1 class="basicinfo">Basic Information</h1>
+      <p class="p3">AGE: 30<br><br>EMAIL: andychu@gmail.com<br><br>LANGUAGE: english<br><br>STUDENTID: 151636198<br><br>Instructor: Harry Scanlan</p></div>
+</div>
+    </section>
+
+<!-- Info Part End -->
+<!-- Responsive picture EX-->
+
+<picture>
+<source media="(min-width: 800px)" src="./63brabusfront.jpg" alt="">
+<source media="(min-width: 400px)" src="./63brabusfront.jpg" alt="">
+</picture>
+
+
+<!-- Responsive picture End -->
+
+<!-- Education Section Start -->
+
+<section class="thirdsection">
+<div>
+      <h1 class="educationlinfo"><br><br><br><br><br><br><br><br><br><br><br><br>Educational Information</h1></div>
+    <table class="table" style="width:100%" >
+    <tr>
+      <th class="table1">University</th>
+      <th class="table2">Degree</th>
+    </tr>
+    <tr>
+      <td class="table1">TKU</td>
+      <td class="table2">Department of Info Management</td>
+    </tr>
+    <tr>
+      <th class="table1">College</th>
+      <th class="table2">Diploma</th>
+    </tr>
+    <tr>
+      <td class="table1">Seneca</td>
+      <td class="table2">Computer Programing</td>
+    </tr>
+    </table>
+    
+    </section>
+
+
+<!-- Education Section End -->
+
+
+<!--Contact ME -->
+
+<section class="section4">
+
+    <div>
+      <h1 class="contact" style="text-align: center;">Contact ME</h1> 
+    </div>
+    <div class="container">
+      <form id="showinput" action="#" method="POST">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country" id="country">Country</label>
+        <select id="country" name="country">
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="usa">New Zealand</option>
+          <option value="usa">Poland</option>
+          <option value="usa">Denmark</option>
+          <option value="usa">Finland</option>
+        </select>
+    
+        <label for="subject" id="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+        <input type="submit" value="Submit" onclick="showinput();">
+        
+      </form>
+    </div>
+</section>
+<script src="./js/scripts.js"></script>
+<!-- Contact Us End --> 
+
+</main>
+</body>
+</html>
